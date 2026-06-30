@@ -270,7 +270,7 @@ span {
 
 .typing-text span::before {
     content: 'Virtual Assistant'; 
-    animation: words 3.5s infinite;
+    animation: words 5s infinite;
 }
 
 @keyframes words {
