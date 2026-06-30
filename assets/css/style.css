@@ -529,6 +529,73 @@ span {
 
 }
 
+/* skills section */
+.tools {
+    background: var(--bg-color);
+}
+
+
+.tools .container {
+    background: rgb(149, 111, 157);
+    color: var(--text-color);
+    border-radius: 1rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.tools .container .bar {
+    background-color: var(--second-bg-color); 
+    padding: 10px;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px var(--main-color);
+    transition: 0.3s ease;
+}
+
+.tools .row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Display 5 items per row */
+    gap: 1.5rem;
+}
+
+.tools .bar {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 1rem;
+    background: var(--bg-color);
+    box-shadow: 0 4px 10px var(--main-color);
+    transition: 0.3s ease;
+}
+
+.tools .bar:hover {
+    box-shadow: 0 4px 10px var(--main-color);
+    transform: scale(1.03);
+}
+
+.tools .bar .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.tools .bar .info img {
+    width: 0.7in; 
+    height: 0.7in;
+    object-fit: cover; /* Ensure the image covers the area */
+}
+
+.tools .bar .info span {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    color: var(--text-color);
+
+}
+
 /* FeedBack */
 
 .feedback {
